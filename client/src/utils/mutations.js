@@ -1,6 +1,6 @@
 import { gql } from '@apollo/client';
 
-export const CREATE_USERNAME = gql`
+export const LOGIN_USER = gql`
     mutation login_user{
         loginUser(){
             username
