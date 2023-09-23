@@ -1,6 +1,6 @@
 const { gql } = require('apollo-server-express');
 
-const typeDefs = ggl`
+const typeDefs = gql`
     type Query {
         me: [User]
     }
